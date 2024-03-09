@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(216, 193, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.original{
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.left-side{
+    height: 500px;
+    width: 250px;
+   background-image: url("flower.jpg");
+   background-size: cover;
+}
+.right-side{
+    height: 500px;
+    width: 250px;
+    color:antiquewhite;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    text-align: center;
+
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-image: url("amazon-logo1.jpg");
+    background-size: cover;
+    border:2px solid red;
+    border-radius: 50%;
+    /* position: relative; */
+    margin-top: 50px;
+    margin-bottom: 130px;
+     margin-left: 90px; 
+
+}
+.input-field{
+    height: 100px;
+    width: 100%;
+    /* position: absolute;
+    align-items: end; */
+    text-align: center;
+    margin-bottom: 60px;
+}
+.border:hover{
+    border: 2px solid yellow;
+}
+.button{
+    background-color: aqua;
+    font-size: 1rem;
+    border:2px solid rgb(237, 21, 21);
+    border-radius: 5px;
+}
+.register p{
+    height: 20px;
+    text-align: right;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 5px;
+    border: 2px solid rgb(242, 242, 159);
+    border-radius: 5px;
+}
+a:hover{
+    border: 2px solid red;
+}
