@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-right: 20px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 10px 0px gray;
+}
+.img{
+    margin-top: 15px;
+    height: 320px;
+    width: 400px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+}
+h3{
+    padding-top: 12px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.img1{
+    background-image: url(bikesh.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url("fish.jpg");
+    background-size: cover;
+}
+.img3{
+    background-image: url("flower.jpg");
+    background-size: cover;
+}
